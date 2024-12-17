@@ -57,6 +57,7 @@ https://selectel.ru/blog/tutorials/grep-command-in-linux/
 Простое задание с пошаговым объяснением: 
 <img width="556" alt="Снимок экрана 2024-12-17 в 18 43 45" src="https://github.com/user-attachments/assets/d0797a4d-5725-4ba4-ba7f-bd81a56b06e0" />
 <img width="790" alt="Снимок экрана 2024-12-17 в 18 44 24" src="https://github.com/user-attachments/assets/0067bf24-d95d-4b11-9d30-d65f78f6a7c5" />
+
 2. Задача на выполнение
 <img width="637" alt="Снимок экрана 2024-12-17 в 19 18 17" src="https://github.com/user-attachments/assets/d8522ce1-92a8-4814-810b-5fbcc8c4f065" />
 
