@@ -8,26 +8,26 @@
 ## 1.Подготовка данных:
 Создайте файл `system.log` и добавьте в него тестовые данные:
 ```
-`echo -e "Info: System started\nError: Disk full\nWarning: Low memory\nerror: Connection lost" > system.log`
+echo -e "Info: System started\nError: Disk full\nWarning: Low memory\nerror: Connection lost" > system.log
 ```
 ## 2.Запустите поиск с учетом регистра:
 Выполните команду:
 ```
-`grep "error" system.log`
+grep "error" system.log
 ```
 Вывод будет содержать только строку `error: Connection lost.`
 ## 3.Добавьте флаг `-i` для игнорирования регистра:
 ```
-`grep -i "error" system.log`
+grep -i "error" system.log
 ```
 Теперь в выводе будут строки с `Error: Disk full и error: Connection lost.`
 ## 4.Используйте флаг `--color` для подсветки:
 ```
-`grep -i --color "error" system.log`
+grep -i --color "error" system.log
 ```
 ## 5.Примените флаг `-v` для исключения строк с "error":
 ```
-`grep -v -i "error" system.log`
+grep -v -i "error" system.log
 ```
 Вывод: строки без слова "error".
 
@@ -44,5 +44,5 @@
 Подсветка найденного текста.
 Пример команды:
 ```
-`grep -r --color -c "TODO" my_project/`
+grep -r --color -c "TODO" my_project/
 ```
