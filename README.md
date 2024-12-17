@@ -7,4 +7,4 @@
 
 ## 1.Подготовка данных:
 Создайте файл system.log и добавьте в него тестовые данные:
-echo -e "Info: System started\nError: Disk full\nWarning: Low memory\nerror: Connection lost" > system.log
+`echo -e "Info: System started\nError: Disk full\nWarning: Low memory\nerror: Connection lost" > system.log`
